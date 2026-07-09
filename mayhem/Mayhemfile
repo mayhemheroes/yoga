@@ -1,0 +1,5 @@
+project: yoga
+target: fuzz_layout
+cmds:
+  - cmd: /mayhem/fuzz_layout
+    libfuzzer: true
